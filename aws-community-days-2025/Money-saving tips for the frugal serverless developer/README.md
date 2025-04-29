@@ -4,7 +4,8 @@
 
 <a href="https://www.linkedin.com/in/theburningmonk/">By Yan Cui</a>
 
-## How to keep CLoudWatch logs cost under control
+## How to keep CloudWatch logs cost under control
+
 * Do structured logging. Log at INFO or above in production.
 * Sample DEBUG logs in production. eg. 5% of services.
 * Set log retetion of logs to 30 days.
@@ -13,13 +14,12 @@
 
 ## Right Sizing the lambda functions.
 
-* Use ARM achitecture
-  * ARM is about 25% cheaper
+* Use ARM Architecture
+    * ARM is about 25% cheaper
 * No lambda-to-lambda invocations
 * Synchronous lambda to lambda are almost always a sign of bad design
-  * Run everything in the same function
+    * Run everything in the same function
 * Asynchronous invocations
-
 
 ## Caching
 
@@ -28,9 +28,9 @@ _Caching is a cheat code for building performant & scalable applications._
 * Client side caching
 * CF edge caching
 * Application level caching
-  * Momento instead of ElastiCache
+    * Momento instead of ElastiCache
 
-## Choose the right service for your worklode
+## Choose the right service for your workload
 
 _Every architectural decision is a ***buying decision***_
 
