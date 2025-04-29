@@ -5,7 +5,7 @@ by [Michael Schmid](https://www.linkedin.com/in/msci/)
 
 **Community Day**
 > Wake-up call at 3:30 AM!
-> 
+>
 > How can I be equipped to tackle the challenge as fast as possible?
 
 ## AWS observability services
@@ -68,7 +68,7 @@ _THE GOLDEN SIGNALS OF APM_
     * Click from metrics to correlate trace, then drill into the specific resource, such as a container pod, to
       establish a root cause.
 
-## Amazon CloudWatch application Signals
+# Amazon CloudWatch application Signals
 
 <img src="IMG_1107.jpeg" alt="App signals slide">
 
@@ -76,7 +76,7 @@ _THE GOLDEN SIGNALS OF APM_
 2. Diagnose and resolve
 3. Expand perspectives
 
-## How it works
+## How does it work?
 
 _application signals_
 
@@ -87,3 +87,13 @@ _application signals_
 3. Troubleshooting with metrics and traces
 4. Set SLOs
 5. Synthetics & Client integrations
+
+## AWS CONTAINER observability benefits
+
+<img src="IMG_1109.jpeg" alt="AWS CONTAINER observability benefits">
+
+1. Easy onboarding
+2. All the metrics needed for troubleshooting
+3. End to end application monitoring
+4. Opinionated observability with best practice alarms
+5. Cost-effective pricing
